@@ -12,7 +12,8 @@ export enum ActionType {
     SPAWN_OBJECT = "SPAWN_OBJECT",
     SET_POSITION_PLAYER = "SET_POSITION_PLAYER",
     FADE_IN = "FADE_IN",
-    FADE_OUT = "FADE_OUT"
+    FADE_OUT = "FADE_OUT",
+    POP_UP = "POP_UP"
 }
 
 export const ACTION_TYPE = Object.values(ActionType) as ActionType[];
